@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.globema.controllers.MenuController">
+   <children>
+      <Button layoutX="164.0" layoutY="79.0" mnemonicParsing="false" onAction="#runApplication" text="Aplikacja" />
+      <Button layoutX="173.0" layoutY="144.0" mnemonicParsing="false" onAction="#openOptions" text="Opcje" />
+      <Button layoutX="168.0" layoutY="217.0" mnemonicParsing="false" onAction="#exit" text="Wyjście" />
+   </children>
+</Pane>

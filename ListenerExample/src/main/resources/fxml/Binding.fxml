@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="475.0" prefWidth="460.0" spacing="10.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.globema.Controller">
+   <children>
+      <HBox alignment="CENTER_LEFT" prefHeight="62.0" prefWidth="392.0" spacing="10.0">
+         <children>
+            <Label prefHeight="17.0" prefWidth="50.0" text="Imie" />
+            <TextField fx:id="nameTextField" />
+            <Label fx:id="nameLabel" text="OK" textFill="#19ff80" />
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="48.0" prefWidth="392.0" spacing="10.0">
+         <children>
+            <Label text="Nazwisko" />
+            <TextField fx:id="surnameTextField" />
+            <Label fx:id="surnameLabel" text="OK" textFill="#19ff80" />
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="54.0" prefWidth="392.0" spacing="10.0">
+         <children>
+            <Label text="Rok urodzenia" />
+            <TextField fx:id="yearTextField" prefHeight="25.0" prefWidth="88.0" />
+            <CheckBox fx:id="confirmCheckBox" mnemonicParsing="false" text="Potwierdzam" />
+            <Label text="Twój wiek to:" />
+            <Label fx:id="ageLabel" />
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="35.0" prefWidth="389.0" spacing="10.0">
+         <children>
+            <Button fx:id="loginButton" mnemonicParsing="false" text="Zaloguj" />
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</VBox>
